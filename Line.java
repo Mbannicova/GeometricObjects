@@ -37,12 +37,7 @@ public class Line {
 		  
 		 double intermResult = (Math.pow(a, c) + Math.pow(b, c));
 		 int result = (int)Math.round(Math.sqrt(intermResult));
-		// int integerResult = (int)result;
-		 //double rest =  result - integerResult;
-		 //if (rest >= 0.5) {
-			// integerResult++;
-		// }
-		  
+				  
 		  return result;
 	      
 		  
